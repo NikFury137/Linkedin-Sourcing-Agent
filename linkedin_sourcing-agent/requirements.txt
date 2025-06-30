@@ -1,0 +1,56 @@
+# AI Sourcing Agent Dependencies
+
+# Core AI Frameworks
+crewai>=0.28.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.8
+langchain-google-genai>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+pydantic>=2.0.0
+
+# Web Scraping & APIs
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+aiohttp>=3.8.0
+
+# Search & Information Retrieval
+tavily-python>=0.3.0
+serper>=0.1.0
+duckduckgo-search>=3.9.0
+
+# Data Storage & Caching
+sqlite3
+redis>=5.0.0
+chromadb>=0.4.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+jinja2>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+typer>=0.9.0
+rich>=13.0.0
+tqdm>=4.66.0
+
+# Web Framework (for dashboard)
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Security & Compliance
+cryptography>=41.0.0
